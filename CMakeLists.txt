@@ -4,5 +4,6 @@ project(untitled16)
 
 find_package(raylib)
 add_executable(untitled16 main.c
-        wuziqi.h)
+        wuziqi.h
+)
 target_link_libraries(${PROJECT_NAME} raylib)
